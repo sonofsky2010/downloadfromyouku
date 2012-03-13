@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38656E15150F167800B48A41 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38656E14150F167800B48A41 /* libz.dylib */; };
+		38656E17150F168600B48A41 /* libtidy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38656E16150F168600B48A41 /* libtidy.dylib */; };
+		38656E19150F169100B48A41 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38656E18150F169100B48A41 /* libxml2.dylib */; };
+		38656E1B150F16A100B48A41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38656E1A150F16A100B48A41 /* SystemConfiguration.framework */; };
+		38656E1D150F16A700B48A41 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38656E1C150F16A700B48A41 /* Security.framework */; };
+		38D30516150DE24B007A0FCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D30515150DE24B007A0FCF /* Cocoa.framework */; };
+		38D30520150DE24B007A0FCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38D3051E150DE24B007A0FCF /* InfoPlist.strings */; };
+		38D30522150DE24B007A0FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D30521150DE24B007A0FCF /* main.m */; };
+		38D30526150DE24B007A0FCF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 38D30524150DE24B007A0FCF /* Credits.rtf */; };
+		38D30529150DE24B007A0FCF /* TESTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D30528150DE24B007A0FCF /* TESTAppDelegate.m */; };
+		38D3052C150DE24B007A0FCF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D3052A150DE24B007A0FCF /* MainMenu.xib */; };
+		38D30533150DE56A007A0FCF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D30532150DE56A007A0FCF /* WebKit.framework */; };
+		38F3D2FD150F2BDD0024A3EE /* processWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38F3D2FC150F2BDD0024A3EE /* processWindow.xib */; };
+		38F3D301150F2C580024A3EE /* ProcessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3D300150F2C580024A3EE /* ProcessWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38656E14150F167800B48A41 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		38656E16150F168600B48A41 /* libtidy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtidy.dylib; path = usr/lib/libtidy.dylib; sourceTree = SDKROOT; };
+		38656E18150F169100B48A41 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		38656E1A150F16A100B48A41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		38656E1C150F16A700B48A41 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		38D30511150DE24B007A0FCF /* downloadFromYouku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = downloadFromYouku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D30515150DE24B007A0FCF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		38D30518150DE24B007A0FCF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		38D30519150DE24B007A0FCF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		38D3051A150DE24B007A0FCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38D3051D150DE24B007A0FCF /* downloadFromYouku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "downloadFromYouku-Info.plist"; sourceTree = "<group>"; };
+		38D3051F150DE24B007A0FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38D30521150DE24B007A0FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38D30523150DE24B007A0FCF /* downloadFromYouku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "downloadFromYouku-Prefix.pch"; sourceTree = "<group>"; };
+		38D30525150DE24B007A0FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		38D30527150DE24B007A0FCF /* TESTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESTAppDelegate.h; sourceTree = "<group>"; };
+		38D30528150DE24B007A0FCF /* TESTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTAppDelegate.m; sourceTree = "<group>"; };
+		38D3052B150DE24B007A0FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		38D30532150DE56A007A0FCF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		38F3D2FC150F2BDD0024A3EE /* processWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = processWindow.xib; sourceTree = "<group>"; };
+		38F3D2FF150F2C580024A3EE /* ProcessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessWindow.h; sourceTree = "<group>"; };
+		38F3D300150F2C580024A3EE /* ProcessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D3050E150DE24B007A0FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38656E1D150F16A700B48A41 /* Security.framework in Frameworks */,
+				38656E1B150F16A100B48A41 /* SystemConfiguration.framework in Frameworks */,
+				38656E19150F169100B48A41 /* libxml2.dylib in Frameworks */,
+				38656E17150F168600B48A41 /* libtidy.dylib in Frameworks */,
+				38656E15150F167800B48A41 /* libz.dylib in Frameworks */,
+				38D30533150DE56A007A0FCF /* WebKit.framework in Frameworks */,
+				38D30516150DE24B007A0FCF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D30506150DE24B007A0FCF = {
+			isa = PBXGroup;
+			children = (
+				38656E1C150F16A700B48A41 /* Security.framework */,
+				38656E1A150F16A100B48A41 /* SystemConfiguration.framework */,
+				38656E18150F169100B48A41 /* libxml2.dylib */,
+				38656E16150F168600B48A41 /* libtidy.dylib */,
+				38656E14150F167800B48A41 /* libz.dylib */,
+				38D30532150DE56A007A0FCF /* WebKit.framework */,
+				38D3051B150DE24B007A0FCF /* downloadFromYouku */,
+				38D30514150DE24B007A0FCF /* Frameworks */,
+				38D30512150DE24B007A0FCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38D30512150DE24B007A0FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38D30511150DE24B007A0FCF /* downloadFromYouku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D30514150DE24B007A0FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D30515150DE24B007A0FCF /* Cocoa.framework */,
+				38D30517150DE24B007A0FCF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38D30517150DE24B007A0FCF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D30518150DE24B007A0FCF /* AppKit.framework */,
+				38D30519150DE24B007A0FCF /* CoreData.framework */,
+				38D3051A150DE24B007A0FCF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		38D3051B150DE24B007A0FCF /* downloadFromYouku */ = {
+			isa = PBXGroup;
+			children = (
+				38D30527150DE24B007A0FCF /* TESTAppDelegate.h */,
+				38D30528150DE24B007A0FCF /* TESTAppDelegate.m */,
+				38D3052A150DE24B007A0FCF /* MainMenu.xib */,
+				38D3051C150DE24B007A0FCF /* Supporting Files */,
+				38F3D2FC150F2BDD0024A3EE /* processWindow.xib */,
+				38F3D2FF150F2C580024A3EE /* ProcessWindow.h */,
+				38F3D300150F2C580024A3EE /* ProcessWindow.m */,
+			);
+			path = downloadFromYouku;
+			sourceTree = "<group>";
+		};
+		38D3051C150DE24B007A0FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D3051D150DE24B007A0FCF /* downloadFromYouku-Info.plist */,
+				38D3051E150DE24B007A0FCF /* InfoPlist.strings */,
+				38D30521150DE24B007A0FCF /* main.m */,
+				38D30523150DE24B007A0FCF /* downloadFromYouku-Prefix.pch */,
+				38D30524150DE24B007A0FCF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38D30510150DE24B007A0FCF /* downloadFromYouku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D3052F150DE24B007A0FCF /* Build configuration list for PBXNativeTarget "downloadFromYouku" */;
+			buildPhases = (
+				38D3050D150DE24B007A0FCF /* Sources */,
+				38D3050E150DE24B007A0FCF /* Frameworks */,
+				38D3050F150DE24B007A0FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = downloadFromYouku;
+			productName = downloadFromYouku;
+			productReference = 38D30511150DE24B007A0FCF /* downloadFromYouku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D30508150DE24B007A0FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 38D3050B150DE24B007A0FCF /* Build configuration list for PBXProject "downloadFromYouku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38D30506150DE24B007A0FCF;
+			productRefGroup = 38D30512150DE24B007A0FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D30510150DE24B007A0FCF /* downloadFromYouku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38D3050F150DE24B007A0FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D30520150DE24B007A0FCF /* InfoPlist.strings in Resources */,
+				38D30526150DE24B007A0FCF /* Credits.rtf in Resources */,
+				38D3052C150DE24B007A0FCF /* MainMenu.xib in Resources */,
+				38F3D2FD150F2BDD0024A3EE /* processWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38D3050D150DE24B007A0FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D30522150DE24B007A0FCF /* main.m in Sources */,
+				38D30529150DE24B007A0FCF /* TESTAppDelegate.m in Sources */,
+				38F3D301150F2C580024A3EE /* ProcessWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38D3051E150DE24B007A0FCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D3051F150DE24B007A0FCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38D30524150DE24B007A0FCF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D30525150DE24B007A0FCF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		38D3052A150DE24B007A0FCF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D3052B150DE24B007A0FCF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38D3052D150DE24B007A0FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38D3052E150DE24B007A0FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38D30530150DE24B007A0FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "downloadFromYouku/downloadFromYouku-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = "downloadFromYouku/downloadFromYouku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38D30531150DE24B007A0FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "downloadFromYouku/downloadFromYouku-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = "downloadFromYouku/downloadFromYouku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38D3050B150DE24B007A0FCF /* Build configuration list for PBXProject "downloadFromYouku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D3052D150DE24B007A0FCF /* Debug */,
+				38D3052E150DE24B007A0FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D3052F150DE24B007A0FCF /* Build configuration list for PBXNativeTarget "downloadFromYouku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D30530150DE24B007A0FCF /* Debug */,
+				38D30531150DE24B007A0FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38D30508150DE24B007A0FCF /* Project object */;
+}
